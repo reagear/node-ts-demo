@@ -1,0 +1,29 @@
+{
+  "name": "node-ts-demo",
+  "version": "1.0.0",
+  "description": "node项目使用typescript例子",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "node dis/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reagear/node-ts-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reagear/node-ts-demo/issues"
+  },
+  "homepage": "https://github.com/reagear/node-ts-demo#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.2.0",
+    "eslint-config-alloy": "^3.7.3",
+    "typescript": "^3.9.5"
+  }
+}
