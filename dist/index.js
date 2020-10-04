@@ -41,3 +41,7 @@ function f() {
     fuck.sayHello();
 }
 f();
+function speak(lang) {
+    return `I speak ${lang}`;
+}
+console.log(speak("english" /* English */));
