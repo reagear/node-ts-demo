@@ -25,5 +25,6 @@
     "eslint": "^7.2.0",
     "eslint-config-alloy": "^3.7.3",
     "typescript": "^3.9.5"
-  }
+  },
+  "dependencies": {}
 }
