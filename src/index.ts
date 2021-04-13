@@ -22,3 +22,18 @@ function f(): void {
 }
 
 f();
+
+interface A {a:string}
+
+type B = A & {b:string};
+
+console.log(path.extname('./index.less'))
+
+type M = Record<string, string>
+
+function tuple<T extends unknown[]>(...ts:T):T{
+    return ts
+}
+
+const a = tuple(1,true,'123')
+const b = [1,true,'123']
